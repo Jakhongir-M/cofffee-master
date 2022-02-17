@@ -1,0 +1,29 @@
+.headquarters {
+  padding: 0px 85px;
+}
+.headquarters__list {
+  list-style: none;
+  display: flex;
+}
+.headquarters__title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+  margin-bottom: 72px;
+}
+.headquarters__item:not(:last-child) {
+  margin-right: 125px;
+}
+.headquarters__country {
+  display: inline-block;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+  margin-bottom: 24px;
+}

@@ -1,0 +1,91 @@
+.our {
+  padding: 0px 85px;
+}
+.our__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.our__img {
+  width: 100%;
+}
+.our__img--tablet {
+  display: none;
+}
+.our__img--mobile {
+  display: none;
+}
+.our__content {
+  width: 46%;
+}
+.our__left {
+  width: 46%;
+}
+.our__title {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Fraunces 9pt";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333d4b;
+  margin-bottom: 32px;
+}
+.our__text {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Barlow normal ";
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+@media only screen and (max-width: 992px) {
+  .our {
+    padding: 0px;
+  }
+  .our__img {
+    display: none;
+  }
+
+  .our__img--tablet {
+    display: block;
+  }
+  .our__content {
+    width: 46%;
+  }
+  .our__title {
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #333d4b;
+  }
+  .our__text {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #333d4b;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .our__inner {
+    flex-direction: column;
+  }
+  .our__left {
+    width: 100%;
+    margin-bottom: 48px;
+  }
+  .our__content {
+    width: 100%;
+    text-align: center;
+  }
+  .our__img--tablet {
+    display: none;
+  }
+  .our__img--mobile {
+    display: block;
+  }
+}

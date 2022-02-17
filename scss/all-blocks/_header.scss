@@ -1,0 +1,51 @@
+.header {
+  padding: 43px 0px;
+}
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.header__item:not(first-child) {
+  margin-left: 32px;
+}
+.header__link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+.header__burger-button {
+  width: 16px;
+  height: 16px;
+  padding: 0px;
+  border: 0px;
+  background-image: url("../../images/coffee-burger-svg.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: none;
+}
+@media only screen and (max-width: 992px) {
+  .header {
+    padding: 40px 0px 53px;
+  }
+}
+@media only screen and (max-width: 626px) {
+  .header {
+    padding: 32px 0px 53px;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__burger-button {
+    display: block;
+  }
+}

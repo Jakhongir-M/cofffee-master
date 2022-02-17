@@ -1,0 +1,65 @@
+.hero {
+  padding: 136px 43px;
+  border-radius: 12px;
+  background-image: url("../../images/coffee-hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  margin-bottom: 170px;
+}
+.hero__content {
+  width: 445px;
+}
+.hero__title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+  margin: 0px;
+  margin-bottom: 24px;
+}
+.hero__text {
+  font-family: "Barlow normal ";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  margin: 0px;
+}
+// RESPONSIVE
+@media only screen and (max-width: 992px) {
+  .hero {
+    background-image: url("../../images/coffee-hero-tablet.jpg");
+  }
+
+  .hero__text {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #fefcf7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  .hero__title {
+    font-size: 32px;
+    line-height: 40px;
+    color: #fefcf7;
+  }
+}
+@media only screen and (max-width: 626px) {
+  .hero {
+    padding: 111px 24px 87px;
+  }
+  .hero__content {
+    width: 100%;
+    text-align: center;
+  }
+  .hero__title {
+    font-size: 28px;
+    line-height: 28px;
+    color: #fefcf7;
+  }
+}
